@@ -1,5 +1,4 @@
 def solution(l):
-    l = sorted(l)
     n = len(l)
     divisor_couples = [0] * n
 
@@ -17,7 +16,6 @@ def solution(l):
     return cnt
 
 def solution(l):
-    l = sorted(l)
     n = len(l)
     div_pairs = [0] * n
     cnt = 0
